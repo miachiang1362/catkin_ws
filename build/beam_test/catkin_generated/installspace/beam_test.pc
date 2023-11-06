@@ -1,0 +1,8 @@
+prefix=/home/mia/catkin_ws/install
+
+Name: beam_test
+Description: Description of beam_test
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

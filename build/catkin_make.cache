@@ -1,0 +1,2 @@
+beam_test:beginner_tutorials:my_robot_common:test:test2:test3
+-DCATKIN_DEVEL_PREFIX=/home/mia/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mia/catkin_ws/install -G Unix Makefiles

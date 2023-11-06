@@ -1,0 +1,8 @@
+prefix=/home/mia/catkin_ws/install
+
+Name: test3
+Description: Description of test3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
