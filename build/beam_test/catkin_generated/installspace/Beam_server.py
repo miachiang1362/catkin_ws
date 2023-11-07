@@ -7,8 +7,8 @@ from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
-#from beamfun.beamfun import *
-import beamfunc
+from beamfunc.beamfunc import *
+#import beamfunc 
 from beam_test.srv import Beam,BeamResponse
 import rospy
 

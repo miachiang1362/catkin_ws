@@ -79,7 +79,7 @@ def steeredResponseMUSIC(R,e,w,N,M):
     I = np.argsort(D)
     EV = np.flip(Ev[:,I],1)
     En = EV[:,M:]
-    SMUSIC = np.zeros([nPointsY,nPointsX],dtype=complex)
+    SMUSIC = np.zeros([nPointsY,nPointsX])
     for i in range(nPointsY):
         for j in range(nPointsX):
 
@@ -198,8 +198,8 @@ def angcal(ru,rv):
         ele = np.nan
 
     return ami,ele
- 
-#def butter_bandpass(lowcut, highcut, fs, order=5):
+
+def butter_bandpass(lowcut, highcut, fs, order=5):
     b, a = butter(order, [lowcut, highcut], fs=fs, btype='band')
     return b, a
 
