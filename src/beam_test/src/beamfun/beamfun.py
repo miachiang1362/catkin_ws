@@ -79,7 +79,7 @@ def steeredResponseMUSIC(R,e,w,N,M):
     I = np.argsort(D)
     EV = np.flip(Ev[:,I],1)
     En = EV[:,M:]
-    SMUSIC = np.zeros([nPointsY,nPointsX])
+    SMUSIC = np.zeros([nPointsY,nPointsX],dtype=complex)
     for i in range(nPointsY):
         for j in range(nPointsX):
 

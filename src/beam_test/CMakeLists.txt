@@ -164,6 +164,10 @@ include_directories(
  catkin_install_python(PROGRAMS
     scripts/Beam_server.py
     scripts/Beam_client.py
+    scripts/talker.py
+    scripts/listener.py
+    scripts/talker_beam.py
+    scripts/a_in_scan_one.py
 #   scripts/my_python_script
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )

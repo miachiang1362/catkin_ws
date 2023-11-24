@@ -20,12 +20,12 @@ def  handle_Beam(req):
     inputSignal = inputSignal.T
 
 
-    #print(np.shape(inputSignal))
-    f = 4000
+    print(np.shape(inputSignal))
+    f = 4000 #目標頻率
     c = 1500
     fs = 96000
-    M = 1
-    N = 4
+    M = 1 #目標個數
+    N = 4 #麥克風個數
     nElements = 4
     radius = 0.127
 

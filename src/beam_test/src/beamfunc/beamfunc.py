@@ -90,6 +90,7 @@ def steeredResponseMUSIC(R,e,w,N,M):
 
     return SMUSIC
 
+
 def xcorr(a,b):
     norm_a = np.linalg.norm(a)
     a = a / norm_a
